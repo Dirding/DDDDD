@@ -10,13 +10,11 @@ public class RouteAssignmentController {
     private ObservableList<DriverData> drivers = FXCollections.observableArrayList();
 
     private TableView<DriverData> tableView = new TableView<>();
-
     private TextField firstNameField = new TextField();
     private TextField lastNameField = new TextField();
     private TextField middleNameField = new TextField();
     private TextField licenseNumberField = new TextField();
     private TextField searchField = new TextField();
-
     public VBox getView() {
         firstNameField.setPromptText("Имя");
         lastNameField.setPromptText("Фамилия");
